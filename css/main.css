@@ -104,6 +104,7 @@ header .search-area ul li{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* linear-gradient(rgba(194, 191, 191, 0.5), rgba(194, 191, 191, 0.5)), */
 }
 
 #top-area .profile-info .user-img{
