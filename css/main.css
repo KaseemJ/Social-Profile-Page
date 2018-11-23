@@ -152,3 +152,16 @@ header .search-area ul li{
 #top-area .profile-info .user-details a:hover{
     background: #2196f3;
 }
+
+/* /////////////////////////////////////////////////// */
+
+#content-area{
+
+}
+
+#content-area .side-column{
+    width: 35%;
+    padding: 2.5%;
+    background: red;
+    height: 600px;
+}
