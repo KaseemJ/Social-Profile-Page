@@ -165,6 +165,7 @@ header .search-area ul li{
     float: left;
     width: 35%;
     margin: 0 2.5%;
+    max-width: 380px;
     
 }
 #content-area .widget-box{
@@ -177,10 +178,14 @@ header .search-area ul li{
     box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);   
     overflow: auto;
 }
-
-/* #content-area .widget-box .head .widget-icon{
+/* 
+#content-area .widget-box .head{
     
 } */
+
+#content-area .widget-box .head .widget-icon-container{
+    display: inline-block;
+}
 
 #content-area .widget-box .head .widget-icon{
     background: #d8d8d8;
@@ -199,15 +204,13 @@ header .search-area ul li{
 }
 
 
-#content-area .widget-box .head .widget-icon{
-    background: #d8d8d8;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#content-area .widget-box .head .widget-title{
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+
+#content-area .widget-box .body{
+    padding: 20px 0;
 }
 
 #content-area .main-area{
