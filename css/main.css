@@ -219,3 +219,25 @@ header .search-area ul li{
     margin: 0 2.5%;
 
 }
+
+#content-area .main-area .widget-box.submenu{
+    padding: 0;
+    margin: 0;
+    margin: 0 0 20px 0;
+}
+
+#content-area .main-area .submenu ul{
+    padding: 0;
+}
+
+#content-area .main-area .submenu ul li{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+#content-area .main-area .submenu ul li:hover{
+    border-bottom: 3px solid #2196f3;
+}
