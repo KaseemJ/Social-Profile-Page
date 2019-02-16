@@ -317,3 +317,7 @@ header .search-area ul li{
     color: #ababab;
 }
 
+#content-area .main-area .widget-box .body .post-img img{
+    width: 100%;
+}
+
