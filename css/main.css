@@ -321,6 +321,13 @@ header .search-area ul li{
     width: 100%;
 }
 
+#content-area .main-area .widget-box.post .body .post-comments{
+    background: #E0E0E0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+}
+
 #content-area .main-area .widget-box.post .body .post-comments .user-img{
     width: 8%;
     display: inline-block;
@@ -348,12 +355,56 @@ header .search-area ul li{
     font-size: 14px;
 }
 
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info{
+    margin: 5px 0 10px 0;
+    
+}
 
 
 
 
 
 
+
+
+#content-area .main-area .widget-box.post .body .post-form{
+    background: #E0E0E0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img{
+    width: 8%;
+    display: inline-block;
+    overflow: auto;
+    float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-form::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img img{
+    border-radius: 50%;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-comment{
+    display: inline-block;
+    float: left;
+    width: 92%;
+    font-size: 14px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-comment .user-info{
+    margin: 5px 0 10px 0;
+    
+}
 
 #content-area .main-area .widget-box.post .body .post-form img{
     width: 100%;
