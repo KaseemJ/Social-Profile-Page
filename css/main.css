@@ -321,6 +321,29 @@ header .search-area ul li{
     width: 100%;
 }
 
+#content-area .main-area .widget-box.post .body .top-icons{
+    width: 100%;
+    padding: 15px 0;
+    color: #E0E0E0;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa{
+    font-size: 20px;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa-thumbs-up{
+    margin-right: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons span{
+    float: right;
+    display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa-comment{
+    margin-right: 15px;
+}
+
 #content-area .main-area .widget-box.post .body .post-comments{
     background: #E0E0E0;
     margin-left: -15px;
@@ -396,6 +419,17 @@ header .search-area ul li{
     float: left;
     width: 92%;
     font-size: 14px;
+    padding: 10px 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons{
+    display: inline-block;
+    float: right;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons .fa{
+    font-size: 20px;
+    margin: 0 15px 0 0;
 }
 
 
