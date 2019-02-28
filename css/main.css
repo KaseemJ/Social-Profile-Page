@@ -368,10 +368,7 @@ header .search-area ul li{
 
 
 #content-area .main-area .widget-box.post .body .post-form{
-    background: #E0E0E0;
-    margin-left: -15px;
-    margin-right: -15px;
-    padding: 15px;
+    
 }
 
 #content-area .main-area .widget-box.post .body .post-form .user-img{
@@ -394,17 +391,21 @@ header .search-area ul li{
     height: 40px;
 }
 
-#content-area .main-area .widget-box.post .body .post-form .user-comment{
+#content-area .main-area .widget-box.post .body .post-form .form-info{
     display: inline-block;
     float: left;
     width: 92%;
     font-size: 14px;
 }
 
-#content-area .main-area .widget-box.post .body .post-form .user-comment .user-info{
-    margin: 5px 0 10px 0;
-    
-}
+
+
+
+
+
+
+
+
 
 #content-area .main-area .widget-box.post .body .post-form img{
     width: 100%;
